@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: rgb(6, 6, 74);
+    color: rgb(255, 255, 255);
+}
+
+.nav-inner-div{
+    display: flex;
+    padding: 25px;
+}
+.nav-brand {
+    flex-grow: 2;
+    font-size: 25px;
+    /* float: left; */
+}
+.nav-content{
+    text-align: right;
+    flex-grow: 8;
+    font-size: 18px;
+    /* float: right; */
+}
+.nav-content > span{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-inner-div {
+    font-size: 45px;
+    display: block;
+  }
+}
