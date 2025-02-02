@@ -87,11 +87,14 @@ header.sticky{
     margin-top: 4rem;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .nav-inner-div {
-    font-size: 45px;
+@media only screen and (max-width: 875px) {
+  #home-page {
+    display: block;
   }
-} */
+  .home-page-section{
+    padding: 3rem;
+  }
+}
 
 .nav-content a {
     text-decoration: none;
