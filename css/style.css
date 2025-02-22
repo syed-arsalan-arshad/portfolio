@@ -60,17 +60,18 @@ header.sticky{
 }
 #main-content{
     position: relative;
-    top: 5rem;
+    top: 1rem;
 }
 
 #home-page{
     display: flex;
+    height: 28rem;
 }
 .home-page-section{
     flex-grow: 1;
     text-align: center;
     position: relative;
-    top: 10rem;
+    top: 6rem;
 }
 .home-page-section p{
     margin: 0;
@@ -80,19 +81,36 @@ header.sticky{
     color: rgb(219, 219, 239);
 }
 .home-page-section img{
-    width: 25rem;
+    width: 20rem;
     border-radius: 3rem;
 }
 .text-section{
     margin-top: 4rem;
 }
+#about-me-section{
+    display: flex;
+}
+#about-me{
+    flex-grow: 1;
+}
 
 @media only screen and (max-width: 875px) {
-  #home-page {
+  #home-page, #about-me-section {
     display: block;
+  }
+  #home-page{
+    height: 40rem;
   }
   .home-page-section{
     padding: 3rem;
+    top: 3rem;
+  }
+  .home-page-section img{
+    width: 15rem;
+    border-radius: 2rem;
+  }
+  .text-section{
+    margin-top: 0;
   }
 }
 
