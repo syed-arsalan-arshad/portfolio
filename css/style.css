@@ -68,7 +68,7 @@ header.sticky{
     top: 6rem;
     display: flex;
     height: 28rem;
-
+    padding-top: 6rem;
 }
 .home-page-section{
     flex-grow: 1;
@@ -88,10 +88,18 @@ header.sticky{
 .text-section{
     margin-top: 4rem;
 }
-#about-me-section{
+.me-section{
     display: block;
     position: relative;
     top: 6rem;
+}
+#about-me-section{
+    padding-top: 7rem;
+}
+#contact-me-section{
+    display: block;
+    position: relative;
+    top: 9rem;
 }
 .about-me-content h2{
     text-align: center;
@@ -107,8 +115,6 @@ header.sticky{
 .about-me-content img{
     vertical-align: middle;
     cursor: pointer;
-}
-.about-me-content img {
     transition: transform .2s;
 }
 .about-me-content img:hover {
@@ -117,6 +123,27 @@ header.sticky{
 .point a{
     text-decoration: none;
     color: yellow;
+}
+#download-resume{
+    text-decoration: none;
+    color: beige;
+    cursor: pointer;
+    transition: transform .2s;
+}
+#download-resume:hover{
+    color: yellow;
+    transform: scale(1.2);
+}
+.thanks-section{
+    position: relative;
+    top: 9rem;
+    text-align: center;
+    padding: 2rem;
+}
+.thanks-section p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 1rem;
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 875px) {
